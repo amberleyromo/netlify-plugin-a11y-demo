@@ -1,0 +1,21 @@
+{
+  "title": "netlify-plugin-a11y",
+  "url": "https://example.com/",
+  "language": "en",
+  "description": "A demo site to illustrate the funcionality of netlify-plugin-a11y.",
+  "feed": {
+    "subtitle": "A demo site to illustrate the funcionality of netlify-plugin-a11y.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Amberley Romo & EJ Mason",
+    "email": "youremailaddress@example.com",
+    "url": "https://example.com/about-me/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "netlify-plugin-a11y-demo",
+  "version": "0.0.1",
+  "description": "A demo site to illustrate the funcionality of netlify-plugin-a11y.",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mxmason/netlify-plugin-a11y-demo.git "
+  },
+  "author": {
+    "name": "EJ Mason",
+    "email": "ej.mason@netlify.com",
+    "url": "https://www.ejmason.com/"
+  },
+	"contributors": [{
+		"name": "Amberley Romo",
+		"email": "amberley.romo@netlify.com",
+		"url": "https://amberley.dev/"
+	}],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxmason/netlify-plugin-a11y-demo.git/issues"
+  },
+  "homepage": "https://github.com/mxmason/netlify-plugin-a11y-demo.git#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
+    "luxon": "^2.0.2",
+    "markdown-it": "^12.2.0",
+    "markdown-it-anchor": "^8.3.1"
+  }
+}
